@@ -44,10 +44,17 @@ class LearningEngine {
       }
 
       // Load fresh data from server
-      const [active, metadata] = await Promise.all([
-        fetch(`/api/${this.appName}/active`).then(r => r.json()),
-        fetch(`/api/${this.appName}/metadata`).then(r => r.json())
+      const [activeResponse, metadataResponse] = await Promise.all([
+        fetch(`/api/${this.appName}/active`),
+        fetch(`/api/${this.appName}/metadata`)
       ]);
+
+      if (!activeResponse.ok || !metadataResponse.ok) {
+        throw new Error(`Network response was not ok. Status: ${activeResponse.status}, ${metadataResponse.status}`);
+      }
+
+      const active = await activeResponse.json();
+      const metadata = await metadataResponse.json();
 
       this.activeWords = active.words;
       this.metadata = metadata;
@@ -66,6 +73,11 @@ class LearningEngine {
       return true;
     } catch (err) {
       console.error('Failed to load data:', err);
+      if (err.message.includes('Failed to fetch')) {
+        alert('Failed to connect to the server. Please ensure the server is running by executing "node server.js" in your terminal.');
+      } else {
+        alert('An error occurred while loading data. Please check the console for details.');
+      }
       return false;
     }
   }
