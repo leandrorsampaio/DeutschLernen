@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/plugin marketplace add obra/superpowers-marketplace)",
+      "Bash(ls:*)",
+      "Bash(/plugin install:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:code.claude.com)",
+      "Bash(claude --version)",
+      "Bash(find:*)",
+      "Bash(claude mcp:*)"
+    ],
+    "deny": []
+  }
+}
