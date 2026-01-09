@@ -1,0 +1,341 @@
+/* ============================================
+   GERMAN LEARNING APP - GLOBAL STYLES
+   ============================================
+   Shared styles across all apps
+   Uses CSS custom properties for easy theming */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ============================================ */
+
+:root {
+  /* Primary colors */
+  --color-primary: #4CAF50;
+  --color-secondary: #2196F3;
+  --color-danger: #F44336;
+  --color-warning: #FF9800;
+  --color-success: #4CAF50;
+
+  /* Gender colors for German articles */
+  --color-masculine: #2196F3;  /* der (blue) */
+  --color-feminine: #F44336;   /* die (red) */
+  --color-neutral: #4CAF50;    /* das (green) */
+
+  /* Neutral colors */
+  --color-text: #212121;
+  --color-text-secondary: #757575;
+  --color-background: #fafafa;
+  --color-surface: #ffffff;
+  --color-border: #e0e0e0;
+
+  /* Spacing scale */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 48px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+}
+
+/* ============================================
+   RESET & BASE STYLES
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+}
+
+.screen--hidden {
+  display: none;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.button {
+  padding: 12px 24px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-family);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.button--primary {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+.button--secondary {
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: white;
+}
+
+.button--danger {
+  background: var(--color-danger);
+  border-color: var(--color-danger);
+  color: white;
+}
+
+.button--large {
+  padding: 16px 32px;
+  font-size: var(--font-size-lg);
+  width: 100%;
+  max-width: 400px;
+  margin: var(--spacing-sm) 0;
+}
+
+/* ============================================
+   LAUNCHER SCREEN
+   ============================================ */
+
+.launcher {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.launcher__header {
+  margin-bottom: var(--spacing-xl);
+}
+
+.launcher__title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.launcher__subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+}
+
+.launcher__apps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.launcher__app {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.launcher__app:hover:not(.launcher__app--disabled) {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+.launcher__app--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.launcher__app--disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--color-border);
+}
+
+.launcher__app-icon {
+  font-size: 48px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.launcher__app-name {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+}
+
+.launcher__app-desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.launcher__app-stats {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  margin-top: auto;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+  .launcher__title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .launcher__subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .launcher__apps {
+    grid-template-columns: 1fr;
+  }
+
+  .screen {
+    padding: var(--spacing-sm);
+  }
+}
+
+/* ============================================
+   LOADING & ERROR STATES
+   ============================================ */
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.loading__spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading__text {
+  margin-top: var(--spacing-md);
+  color: var(--color-text-secondary);
+}
+
+.error {
+  background: #ffebee;
+  border: 2px solid var(--color-danger);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  color: #c62828;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.error__title {
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "german-learning-app",
+  "version": "4.0.0",
+  "description": "Personal German vocabulary learning application with multi-app plugin architecture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["german", "learning", "vocabulary", "education", "spaced-repetition"],
+  "author": "Leandro Rossi Sampaio",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

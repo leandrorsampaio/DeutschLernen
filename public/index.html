@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal German vocabulary learning application">
+  <title>German Learning App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ============================================
+       MAIN LAUNCHER SCREEN
+       ============================================
+       App selection interface with statistics -->
+
+  <div class="screen">
+    <div class="launcher">
+      <!-- Header Section -->
+      <header class="launcher__header">
+        <h1 class="launcher__title">German Learning</h1>
+        <p class="launcher__subtitle">Choose your practice mode</p>
+      </header>
+
+      <!-- App Selection Grid -->
+      <div class="launcher__apps">
+        <!-- Nouns App (Active) -->
+        <a href="apps/nouns/nouns.html" class="launcher__app launcher__app--nouns">
+          <div class="launcher__app-icon">📚</div>
+          <h2 class="launcher__app-name">Nouns</h2>
+          <p class="launcher__app-desc">Articles, plurals, vocabulary</p>
+          <div class="launcher__app-stats" id="nouns-stats">
+            <span class="loading__text">Loading...</span>
+          </div>
+        </a>
+
+        <!-- Verbs App (Coming Soon) -->
+        <div class="launcher__app launcher__app--disabled" title="Coming soon">
+          <div class="launcher__app-icon">🏃</div>
+          <h2 class="launcher__app-name">Verbs</h2>
+          <p class="launcher__app-desc">Conjugations, tenses</p>
+          <div class="launcher__app-stats">Coming in Phase 2</div>
+        </div>
+
+        <!-- Expressions App (Coming Soon) -->
+        <div class="launcher__app launcher__app--disabled" title="Coming soon">
+          <div class="launcher__app-icon">💬</div>
+          <h2 class="launcher__app-name">Expressions</h2>
+          <p class="launcher__app-desc">Common phrases, idioms</p>
+          <div class="launcher__app-stats">Coming in Phase 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load utilities and launcher script -->
+  <script src="core/utils.js"></script>
+  <script src="launcher.js"></script>
+</body>
+</html>
