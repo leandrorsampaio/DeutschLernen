@@ -202,25 +202,63 @@ Hund, Katze, Haus, Auto, Tisch, Stuhl, Bett, Tür, Fenster, Wasser, Brot, Milch,
 
 ### 8. Testing & Validation
 **Task ID:** `comprehensive-testing`
-**Estimated Time:** 3 hours
+**Estimated Time:** 5 hours
 **Dependencies:** All previous tasks
 
-**Testing Areas:**
-- Server startup and API endpoints
-- Data persistence and sync
-- Learning algorithm accuracy
-- UI interactions and animations
-- Session flow completion
-- Statistics calculation
-- Archive/unarchive functionality
+**Unit Testing (2 hours):**
 
-**Test Scenarios:**
+*Critical Business Logic Tests:*
+1. **Weighted Selection Algorithm** (`learning-engine.js`)
+   - Test word selection with different weight combinations
+   - Verify failed words get 3x priority
+   - Verify low streak words get 2x priority
+   - Ensure no duplicate selections in same session
+   - Test edge case: fewer words available than session length
+
+2. **Answer Validation** (`utils.js`)
+   - Test exact matches (case insensitive)
+   - Test typo tolerance (1 character difference allowed)
+   - Test article removal ("the dog" = "dog", "o cachorro" = "cachorro")
+   - Test multiple correct answers (EN + PT both accepted)
+   - Test whitespace handling
+
+3. **Memory/Archive Logic** (`learning-engine.js`)
+   - Test 5-streak memorization trigger
+   - Test 90-day archive calculation
+   - Test unarchive on 2+ failures
+   - Test compression/decompression of archived words
+
+4. **Data Persistence** (`learning-engine.js`)
+   - Test LocalStorage sync on save
+   - Test JSON file save/load cycle
+   - Test data integrity after browser refresh
+   - Test handling of corrupted LocalStorage data
+
+*Testing Approach:*
+- Simple assert-based tests (no framework needed for Phase 1)
+- Create test HTML file that loads core modules and runs assertions
+- Log test results to console with pass/fail indicators
+- Focus on critical business logic only
+
+**Integration Testing (2 hours):**
+
+*End-to-End Test Scenarios:*
+- Server startup and API endpoints
 - Complete practice session with mixed correct/incorrect answers
 - Review mode with memorized words
 - Archive mode functionality
 - Data persistence across browser refreshes
 - Error handling for corrupt data
 - Performance with 50+ words
+- LocalStorage and JSON file synchronization
+
+**UI/UX Testing (1 hour):**
+- UI interactions and animations
+- Session flow completion
+- Statistics calculation accuracy
+- Gender color coding display
+- Progress bar updates
+- Keyboard shortcuts functionality
 
 ### 9. Documentation & Setup Instructions
 **Task ID:** `create-documentation`
@@ -252,6 +290,55 @@ implement-launcher + implement-nouns-app + create-initial-data
 ```
 
 ## Critical Implementation Notes
+
+### Code Documentation & Comments Strategy
+**Purpose:** Enable quick comprehension of code functionality for learning and future maintenance.
+
+**Commenting Guidelines:**
+- **Section-level comments:** Add clear headers for each logical section of code
+- **Function documentation:** Brief description of purpose, parameters, and return values
+- **Complex logic:** Explain "why" not "what" for non-obvious algorithms
+- **Avoid pollution:** Don't comment obvious code (e.g., `i++` doesn't need explanation)
+- **Keep concise:** 1-2 line comments per section, not line-by-line narration
+
+**Example Comment Structure:**
+```javascript
+// ============================================
+// WORD SELECTION & WEIGHTING
+// ============================================
+
+/**
+ * Select words for practice session using weighted random sampling.
+ * Failed words and low-streak words get higher priority.
+ * @param {number} count - Number of words to select
+ * @returns {Array} Selected word objects
+ */
+function selectWordsForSession(count) {
+  // Filter to only non-memorized words
+  const available = this.activeWords.filter(w => !w.memorized);
+
+  // Apply weights: failed=3x, low streak=2x, high difficulty=2x
+  const weighted = available.map(word => {
+    let weight = 1;
+
+    // Recently failed? Prioritize for practice
+    if (word.attempts.slice(-1)[0]?.correct === false) {
+      weight *= 3;
+    }
+
+    return { word, weight };
+  });
+
+  // Use weighted random selection algorithm
+  return this._weightedRandomSample(weighted, count);
+}
+```
+
+**Key Principles:**
+- Group related functions under section headers
+- Document the "contract" of each function (inputs/outputs)
+- Explain business logic decisions (weights, thresholds)
+- Make it scannable: headers stand out, comments are brief
 
 ### Data Persistence Strategy
 - **Primary:** JSON files on server filesystem
@@ -293,7 +380,10 @@ implement-launcher + implement-nouns-app + create-initial-data
 - [ ] Error handling implemented for all async operations
 - [ ] Consistent naming conventions throughout
 - [ ] No hardcoded values (use configuration objects)
-- [ ] Comments for complex algorithm logic only
+- [ ] Section-level comment headers for major code blocks
+- [ ] Function documentation (JSDoc style) for all public functions
+- [ ] Inline comments explaining business logic and non-obvious decisions
+- [ ] Comments are concise and scannable (avoid over-commenting)
 
 ### Performance
 - [ ] JSON files load in < 100ms
