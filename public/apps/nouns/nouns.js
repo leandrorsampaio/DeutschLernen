@@ -55,11 +55,18 @@ async function init() {
  */
 function updateHomeStats() {
   const stats = engine.getStats();
+  const settings = engine.metadata.settings;
 
   // Update count displays
   document.getElementById('learning-count').textContent = stats.learning;
   document.getElementById('memorized-count').textContent = stats.memorized;
   document.getElementById('archived-count').textContent = stats.archived;
+
+  // Update button text with session length from settings
+  document.getElementById('start-practice').textContent = `Practice New Words (${settings.sessionLength} cards)`;
+  document.getElementById('start-review').textContent = `Review Recently Memorized (10 cards)`;
+  document.getElementById('start-archive-review').textContent = `Review Archive (10 cards)`;
+
 
   // Disable buttons if no words available for that mode
   document.getElementById('start-practice').disabled = stats.learning === 0;
@@ -77,7 +84,10 @@ function updateHomeStats() {
  */
 function attachEventListeners() {
   // Home screen buttons
-  document.getElementById('start-practice').addEventListener('click', () => startSession('practice', 15));
+  document.getElementById('start-practice').addEventListener('click', () => {
+    const sessionLength = engine.metadata.settings.sessionLength || 15;
+    startSession('practice', sessionLength);
+  });
   document.getElementById('start-review').addEventListener('click', () => startSession('review', 10));
   document.getElementById('start-archive-review').addEventListener('click', () => startSession('archive', 10));
   document.getElementById('view-stats').addEventListener('click', showStatistics);
@@ -87,7 +97,10 @@ function attachEventListeners() {
   document.getElementById('quit-session').addEventListener('click', quitSession);
 
   // Results screen buttons
-  document.getElementById('try-again').addEventListener('click', () => startSession(sessionMode, currentSession.length));
+  document.getElementById('try-again').addEventListener('click', () => {
+    const sessionLength = sessionMode === 'practice' ? (engine.metadata.settings.sessionLength || 15) : 10;
+    startSession(sessionMode, sessionLength);
+  });
   document.getElementById('return-home').addEventListener('click', returnHome);
 
   // Statistics screen buttons

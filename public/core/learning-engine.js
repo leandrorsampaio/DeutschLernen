@@ -112,7 +112,7 @@ class LearningEngine {
   async save() {
     try {
       // Save to server (primary storage)
-      await Promise.all([
+      const responses = await Promise.all([
         fetch(`/api/${this.appName}/active`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -131,6 +131,12 @@ class LearningEngine {
         })
       ]);
 
+      for (const response of responses) {
+        if (!response.ok) {
+          throw new Error(`Failed to save data to server. Status: ${response.status}`);
+        }
+      }
+
       // Update LocalStorage cache
       setInStorage(`${this.appName}-data`, {
         activeWords: this.activeWords,
@@ -141,6 +147,7 @@ class LearningEngine {
       return true;
     } catch (err) {
       console.error('Save failed:', err);
+      alert('Failed to save your progress to the server. Please check the console for details.');
       return false;
     }
   }
@@ -329,7 +336,6 @@ class LearningEngine {
       if (word.streak >= 5 && !word.memorized) {
         word.memorized = true;
         word.memorizedDate = todayISO();
-        console.log(`✨ Memorized: ${word.de}`);
       }
     } else {
       // Incorrect answer resets streak
@@ -338,7 +344,6 @@ class LearningEngine {
       if (word.memorized) {
         word.memorized = false;
         word.memorizedDate = null;
-        console.log(`❌ Unmemorized: ${word.de} (failed after memorization)`);
       }
     }
   }
@@ -458,7 +463,6 @@ class LearningEngine {
       if (response.ok) {
         const result = await response.json();
         if (result.archived > 0) {
-          console.log(`📦 Archived ${result.archived} words`);
           // Reload data to reflect archived words
           await this.load();
         }
@@ -511,7 +515,5 @@ class LearningEngine {
 
     // Save changes
     await this.save();
-
-    console.log(`⚠️ Unarchived: ${word.de} (failed review)`);
   }
 }

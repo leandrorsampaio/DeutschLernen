@@ -351,8 +351,6 @@ async function runArchiveProcess(appName) {
     metadata.lastArchiveCheck = new Date().toISOString();
 
     await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
-
-    console.log(`📦 Archived ${toArchive.length} words for ${appName}`);
   }
 
   return toArchive.length;
@@ -441,8 +439,6 @@ async function unarchiveWord(appName, wordId) {
 
   await fs.writeFile(activePath, JSON.stringify(activeData, null, 2));
   await fs.writeFile(archivedPath, JSON.stringify(archivedData, null, 2));
-
-  console.log(`⚠️ Unarchived: ${word.de} (failed review)`);
 }
 
 // ============================================
