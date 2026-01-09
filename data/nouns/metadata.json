@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "settings": {
+    "archiveThresholdDays": 90,
+    "reviewInterval": 30,
+    "sessionLength": 15,
+    "unarchiveFailureThreshold": 2
+  },
+  "stats": {
+    "totalWords": 0,
+    "activeWords": 0,
+    "memorizedWords": 0,
+    "archivedWords": 0,
+    "startDate": "2026-01-09",
+    "totalSessions": 0,
+    "totalCards": 0,
+    "overallAccuracy": 0,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "averageSessionTime": 0
+  },
+  "lastArchiveCheck": "2026-01-09T17:55:35.428Z",
+  "lastBackup": null
+}
