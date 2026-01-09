@@ -7,8 +7,8 @@
     "unarchiveFailureThreshold": 2
   },
   "stats": {
-    "totalWords": 0,
-    "activeWords": 0,
+    "totalWords": 50,
+    "activeWords": 50,
     "memorizedWords": 0,
     "archivedWords": 0,
     "startDate": "2026-01-09",
