@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="German nouns practice with articles and plurals">
+  <title>Nouns Practice - German Learning</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="nouns.css">
+</head>
+<body>
+  <!-- ============================================
+       HOME SCREEN - Mode Selection
+       ============================================ -->
+  <div id="home-screen" class="screen">
+    <div class="noun-home">
+      <!-- Header -->
+      <header class="noun-home__header">
+        <a href="../../index.html" class="noun-home__back">← Back to Launcher</a>
+        <h1 class="noun-home__title">Noun Practice</h1>
+      </header>
+
+      <!-- Statistics Display -->
+      <div class="noun-home__stats">
+        <div class="stat">
+          <div class="stat__value" id="learning-count">-</div>
+          <div class="stat__label">Learning</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" id="memorized-count">-</div>
+          <div class="stat__label">Recently Memorized</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" id="archived-count">-</div>
+          <div class="stat__label">Archived</div>
+        </div>
+      </div>
+
+      <!-- Practice Mode Selection -->
+      <div class="noun-home__modes">
+        <button class="button button--primary button--large" id="start-practice">
+          Practice New Words (15 cards)
+        </button>
+
+        <button class="button button--large" id="start-review">
+          Review Recently Memorized (10 cards)
+        </button>
+
+        <button class="button button--large" id="start-archive-review">
+          Review Archive (10 cards)
+        </button>
+      </div>
+
+      <!-- Additional Actions -->
+      <div class="noun-home__actions">
+        <button class="button button--secondary" id="view-stats">View Statistics</button>
+        <button class="button button--secondary" id="export-data">Export Backup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PRACTICE SCREEN - Card Session
+       ============================================ -->
+  <div id="practice-screen" class="screen screen--hidden">
+    <div class="session">
+      <!-- Session Header -->
+      <header class="session__header">
+        <button class="session__quit" id="quit-session" title="Quit session">✕ Quit</button>
+        <div class="session__mode" id="session-mode">Practice</div>
+      </header>
+
+      <!-- Card Display Area -->
+      <div class="session__card-container">
+        <div id="card" class="card">
+          <!-- Card content dynamically inserted by JavaScript -->
+        </div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-container__label" id="progress-label">Card 1 of 15</div>
+        <div class="progress-container__bar">
+          <div class="progress-container__fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       RESULTS SCREEN - Session Summary
+       ============================================ -->
+  <div id="results-screen" class="screen screen--hidden">
+    <div class="results">
+      <h1 class="results__title">Session Complete!</h1>
+
+      <!-- Score Display -->
+      <div class="results__score">
+        <div class="results__score-number" id="score-number">12 out of 15</div>
+        <div class="results__accuracy" id="accuracy">80%</div>
+      </div>
+
+      <!-- Motivational Message -->
+      <div class="results__message" id="results-message">Great job! 👏</div>
+
+      <!-- Action Buttons -->
+      <div class="results__actions">
+        <button class="button button--primary button--large" id="try-again">Practice Again</button>
+        <button class="button button--large" id="return-home">Return to Home</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       STATISTICS SCREEN - Progress Tracking
+       ============================================ -->
+  <div id="stats-screen" class="screen screen--hidden">
+    <div class="stats">
+      <!-- Header -->
+      <header class="stats__header">
+        <button class="stats__back" id="stats-back">← Back</button>
+        <h1 class="stats__title">Statistics</h1>
+      </header>
+
+      <!-- Key Metrics -->
+      <div class="stats__metrics">
+        <div class="stats__metric">
+          <div class="stats__metric-label">Current Streak</div>
+          <div class="stats__metric-value" id="current-streak">-</div>
+        </div>
+        <div class="stats__metric">
+          <div class="stats__metric-label">Longest Streak</div>
+          <div class="stats__metric-value" id="longest-streak">-</div>
+        </div>
+        <div class="stats__metric">
+          <div class="stats__metric-label">Overall Accuracy</div>
+          <div class="stats__metric-value" id="overall-accuracy">-</div>
+        </div>
+        <div class="stats__metric">
+          <div class="stats__metric-label">Total Sessions</div>
+          <div class="stats__metric-value" id="total-sessions">-</div>
+        </div>
+      </div>
+
+      <!-- Calendar Visualization Placeholder -->
+      <div class="stats__calendar" id="calendar">
+        <p class="stats__calendar-placeholder">Calendar visualization coming soon</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load dependencies -->
+  <script src="../../core/utils.js"></script>
+  <script src="../../core/learning-engine.js"></script>
+  <script src="nouns.js"></script>
+</body>
+</html>
