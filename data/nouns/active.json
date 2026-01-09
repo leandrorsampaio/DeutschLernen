@@ -20,8 +20,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-09",
+          "correct": true,
+          "ms": 3402
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -564,8 +570,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-09",
+          "correct": true,
+          "ms": 2561
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1137,5 +1149,5 @@
       "memorizedDate": null
     }
   ],
-  "lastUpdated": "2026-01-09T19:18:15.140Z"
+  "lastUpdated": "2026-01-09T19:34:38.366Z"
 }

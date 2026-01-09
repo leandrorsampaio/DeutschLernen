@@ -420,6 +420,20 @@ async function showStatistics() {
   document.getElementById('overall-accuracy').textContent = `${Math.round(stats.accuracy * 100)}%`;
   document.getElementById('total-sessions').textContent = engine.metadata.stats.totalSessions;
 
+  // Update streak distribution bar
+  const { streakDistribution, learning } = stats;
+  const totalLearning = learning > 0 ? learning : 1; // Avoid division by zero
+
+  for (let i = 0; i <= 4; i++) {
+    const segment = document.getElementById(`streak-${i}`);
+    const value = streakDistribution[i] || 0;
+    const percentage = (value / totalLearning) * 100;
+
+    segment.style.setProperty('--width', `${percentage}%`);
+    segment.querySelector('.streak-bar__value').textContent = value;
+  }
+
+
   // TODO: Generate calendar visualization (Phase 2)
 
   showScreen('stats-screen');

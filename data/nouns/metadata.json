@@ -3,7 +3,7 @@
   "settings": {
     "archiveThresholdDays": 90,
     "reviewInterval": 30,
-    "sessionLength": 2,
+    "sessionLength": 15,
     "unarchiveFailureThreshold": 2
   },
   "stats": {
@@ -12,9 +12,9 @@
     "memorizedWords": 0,
     "archivedWords": 0,
     "startDate": "2026-01-09",
-    "totalSessions": 3,
-    "totalCards": 32,
-    "overallAccuracy": 0.53125,
+    "totalSessions": 4,
+    "totalCards": 34,
+    "overallAccuracy": 0.5588235294117647,
     "currentStreak": 0,
     "longestStreak": 0,
     "averageSessionTime": 0

@@ -21,35 +21,37 @@
 
 Edit `data/nouns/metadata.json`:
 
-* `archiveThresholdDays`: Days before archiving (default: 90\)  
-* `sessionLength`: Cards per session (default: 15\)  
-* `unarchiveFailureThreshold`: Failures before unarchive (default: 2\)
+* `archiveThresholdDays`: Days before archiving (default: 90)
+* `sessionLength`: Cards per session (default: 15)
+* `unarchiveFailureThreshold`: Failures before unarchive (default: 2)
+
+**Important:** After changing these settings, you must stop and restart the `node server.js` process for the changes to take effect.
 
 ### **Resetting Progress**
 
 **Reset everything:**
 
-bash  
-rm \-rf data/nouns/active.json data/nouns/archived.json data/nouns/metadata.json
+bash
+rm -rf data/nouns/active.json data/nouns/archived.json data/nouns/metadata.json
 
-*\# Restart server \- files will be recreated empty*
+*# Restart server - files will be recreated empty*
 
 **Reset just progress (keep words):**
 
-1. Open active.json  
-2. For each word, set: `attempts: []`, `streak: 0`, `memorized: false`  
+1. Open active.json
+2. For each word, set: `attempts: []`, `streak: 0`, `memorized: false`
 3. Save file
 
 ### **Backup Before Major Changes**
 
-bash  
-*\# Create backup*  
-cp \-r data/ data-backup-$(date \+%Y%m%d)/
+bash
+*# Create backup*
+cp -r data/ data-backup-$(date +%Y%m%d)/
 
-*\# Restore if needed*  
-rm \-rf data/
+*# Restore if needed*
+rm -rf data/
 
-cp \-r data-backup-20260106/ data/
+cp -r data-backup-20260106/ data/
 
 ---
 
@@ -61,45 +63,45 @@ This app is built for **simplicity and maintainability** over features and scale
 
 **Priorities:**
 
-1. **Works reliably** \- No crashes, no data loss  
-2. **Easy to use** \- Minimal friction, fast sessions  
-3. **Easy to maintain** \- You can fix bugs in 5 minutes  
-4. **Easy to extend** \- Adding features is straightforward
+1. **Works reliably** - No crashes, no data loss
+2. **Easy to use** - Minimal friction, fast sessions
+3. **Easy to maintain** - You can fix bugs in 5 minutes
+4. **Easy to extend** - Adding features is straightforward
 
 **Non-priorities:**
 
-* Enterprise-scale architecture  
-* Perfect code coverage  
-* Pixel-perfect design  
+* Enterprise-scale architecture
+* Perfect code coverage
+* Pixel-perfect design
 * Every possible feature
 
 ### **Remember**
 
-* **Done is better than perfect**  
-* **Use it daily to find real issues**  
-* **Don't add features you won't use**  
-* **Refactor when you actually feel pain**  
+* **Done is better than perfect**
+* **Use it daily to find real issues**
+* **Don't add features you won't use**
+* **Refactor when you actually feel pain**
 * **The goal is learning German, not building software**
 
 ---
 
 ## **Appendix: Package.json**
 
-json  
-{  
-  "name": "german-learning-app",  
-  "version": "4.0.0",  
-  "description": "Personal German vocabulary learning application",  
-  "main": "server.js",  
-  "scripts": {  
-    "start": "node server.js",  
-    "dev": "node server.js"  
-  },  
-  "keywords": \["german", "learning", "vocabulary", "education"\],  
-  "author": "Your Name",  
-  "license": "MIT",  
-  "dependencies": {  
-    "express": "^4.18.2"  
+json
+{
+  "name": "german-learning-app",
+  "version": "4.0.0",
+  "description": "Personal German vocabulary learning application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["german", "learning", "vocabulary", "education"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 
 }
@@ -108,51 +110,51 @@ json
 
 ## **Appendix: README.md (For Project Root)**
 
-markdown  
-\# German Learning App
+markdown
+# German Learning App
 
 Personal vocabulary learning application for German nouns, verbs, and expressions.
 
-\#\# Quick Start  
-\`\`\`bash  
-*\# Install dependencies*  
+## Quick Start
+```bash
+*# Install dependencies*
 npm install
 
-*\# Start server*  
+*# Start server*
 npm start
 
-*\# Open browser*  
-*\# http://localhost:3000*  
-\`\`\`
+*# Open browser*
+*# http://localhost:3000*
+```
 
-\#\# Features
+## Features
 
-\- **\*\*Multi-app system:\*\*** Nouns, Verbs (future), Expressions (future)  
-\- **\*\*Three practice modes:\*\*** Normal practice, Recently memorized review, Archive review  
-\- **\*\*Automatic archiving:\*\*** Words mastered 90+ days archived automatically  
-\- **\*\*Progress tracking:\*\*** Full statistics and performance metrics  
-\- **\*\*Data persistence:\*\*** Automatic saving, manual export/import
+- **\*\*Multi-app system:\*\*** Nouns, Verbs (future), Expressions (future)
+- **\*\*Three practice modes:\*\*** Normal practice, Recently memorized review, Archive review
+- **\*\*Automatic archiving:\*\*** Words mastered 90+ days archived automatically
+- **\*\*Progress tracking:\*\*** Full statistics and performance metrics, including a visual breakdown of active words by streak level.
+- **\*\*Data persistence:\*\*** Automatic saving, manual export/import
 
-\#\# Project Structure  
-\`\`\`  
-public/           Frontend files  
-  apps/           Individual learning apps  
-  core/           Shared logic  
-data/             JSON data storage  
-server.js         Express API server  
-\`\`\`
+## Project Structure
+```
+public/           Frontend files
+  apps/           Individual learning apps
+  core/           Shared logic
+data/             JSON data storage
+server.js         Express API server
+```
 
-\#\# Development
+## Development
 
 Edit files → Save → Refresh browser. No build process.
 
-\#\# Backup
+## Backup
 
-Data stored in \`data/\` directory. Use Git or manual exports for backups.
+Data stored in `data/` directory. Use Git or manual exports for backups.
 
-\#\# License
+## License
 
-MIT \- Personal use only
+MIT - Personal use only
 
 ---
 

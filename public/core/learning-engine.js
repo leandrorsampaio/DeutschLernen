@@ -400,6 +400,17 @@ class LearningEngine {
     const totalAttempts = allAttempts.length;
     const totalCorrect = allAttempts.filter(a => a.correct).length;
 
+    // Calculate streak distribution for active, non-memorized words
+    const streakDistribution = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0 };
+    learning.forEach(word => {
+      const streak = word.streak || 0;
+      if (streak >= 4) {
+        streakDistribution[4]++;
+      } else {
+        streakDistribution[streak]++;
+      }
+    });
+
     return {
       total: this.metadata.stats.totalWords,
       active: this.activeWords.length,
@@ -409,7 +420,8 @@ class LearningEngine {
       totalAttempts,
       accuracy: totalAttempts > 0 ? totalCorrect / totalAttempts : 0,
       currentStreak: this.metadata.stats.currentStreak,
-      longestStreak: this.metadata.stats.longestStreak
+      longestStreak: this.metadata.stats.longestStreak,
+      streakDistribution
     };
   }
 

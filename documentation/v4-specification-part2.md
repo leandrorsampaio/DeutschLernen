@@ -303,6 +303,17 @@ class LearningEngine {
     const allAttempts = this.activeWords.flatMap(w => w.attempts || []);  
     const totalAttempts = allAttempts.length;  
     const totalCorrect = allAttempts.filter(a => a.correct).length;  
+
+    // Calculate streak distribution for active, non-memorized words
+    const streakDistribution = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0 };
+    learning.forEach(word => {
+      const streak = word.streak || 0;
+      if (streak >= 4) {
+        streakDistribution[4]++;
+      } else {
+        streakDistribution[streak]++;
+      }
+    });
       
     return {  
       total: this.metadata.stats.totalWords,  
@@ -313,7 +324,8 @@ class LearningEngine {
       totalAttempts,  
       accuracy: totalAttempts > 0 ? totalCorrect / totalAttempts : 0,  
       currentStreak: this.metadata.stats.currentStreak,  
-      longestStreak: this.metadata.stats.longestStreak  
+      longestStreak: this.metadata.stats.longestStreak,
+      streakDistribution
     };  
   }  
     
@@ -664,6 +676,33 @@ loadAppStats();
           <div class="stats__metric-value" id="total-sessions">-</div>  
         </div>  
       </div>  
+
+      <!-- Streak Distribution -->
+      <div class="stats__streak-distribution">
+        <h2 class="stats__section-title">Active Words by Streak</h2>
+        <div class="streak-bar" id="streak-bar">
+          <div class="streak-bar__segment" id="streak-0" style="--color: #E0E0E0; --width: 20%;">
+            <span class="streak-bar__label">0</span>
+            <span class="streak-bar__value">0</span>
+          </div>
+          <div class="streak-bar__segment" id="streak-1" style="--color: #FFCDD2; --width: 20%;">
+            <span class="streak-bar__label">1</span>
+            <span class="streak-bar__value">0</span>
+          </div>
+          <div class="streak-bar__segment" id="streak-2" style="--color: #FFF59D; --width: 20%;">
+            <span class="streak-bar__label">2</span>
+            <span class="streak-bar__value">0</span>
+          </div>
+          <div class="streak-bar__segment" id="streak-3" style="--color: #C8E6C9; --width: 20%;">
+            <span class="streak-bar__label">3</span>
+            <span class="streak-bar__value">0</span>
+          </div>
+          <div class="streak-bar__segment" id="streak-4" style="--color: #BBDEFB; --width: 20%;">
+            <span class="streak-bar__label">4+</span>
+            <span class="streak-bar__value">0</span>
+          </div>
+        </div>
+      </div>
         
       <!-- Calendar placeholder -->  
       <div class="stats__calendar" id="calendar">  
@@ -949,6 +988,19 @@ async function showStatistics() {
   document.getElementById('longest-streak').textContent = `${stats.longestStreak} days`;  
   document.getElementById('overall-accuracy').textContent = `${Math.round(stats.accuracy * 100)}%`;  
   document.getElementById('total-sessions').textContent = engine.metadata.stats.totalSessions;  
+
+  // Update streak distribution bar
+  const { streakDistribution, learning } = stats;
+  const totalLearning = learning > 0 ? learning : 1; // Avoid division by zero
+
+  for (let i = 0; i <= 4; i++) {
+    const segment = document.getElementById(`streak-${i}`);
+    const value = streakDistribution[i] || 0;
+    const percentage = (value / totalLearning) * 100;
+
+    segment.style.setProperty('--width', `${percentage}%`);
+    segment.querySelector('.streak-bar__value').textContent = value;
+  }
     
   // TODO: Generate calendar visualization  
     
@@ -1573,6 +1625,58 @@ body {
   font-size: 28px;  
   font-weight: 700;  
   color: var(--color-primary);  
+}
+
+.stats__section-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.stats__streak-distribution {
+  margin-bottom: var(--spacing-xl);
+}
+
+.streak-bar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.streak-bar__segment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: var(--width);
+  background-color: var(--color);
+  color: #333;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  transition: width 0.5s ease-in-out;
+  position: relative;
+}
+
+.streak-bar__segment:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.streak-bar__label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.streak-bar__value {
+  font-size: var(--font-size-base);
+  font-weight: 700;
 }
 
 .stats__calendar {  
