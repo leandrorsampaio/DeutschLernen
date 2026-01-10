@@ -7,11 +7,11 @@
     "unarchiveFailureThreshold": 2
   },
   "stats": {
-    "totalWords": 50,
-    "activeWords": 50,
+    "totalWords": 62,
+    "activeWords": 62,
     "memorizedWords": 0,
     "archivedWords": 0,
-    "startDate": "2026-01-09",
+    "startDate": "2026-01-10",
     "totalSessions": 0,
     "totalCards": 0,
     "overallAccuracy": 0,
@@ -19,6 +19,6 @@
     "longestStreak": 0,
     "averageSessionTime": 0
   },
-  "lastArchiveCheck": "2026-01-09T17:55:35.428Z",
+  "lastArchiveCheck": "2026-01-10T00:00:00.000Z",
   "lastBackup": null
 }
