@@ -9,7 +9,7 @@
    ============================================ */
 
 .noun-home {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   text-align: center;
 }
@@ -253,15 +253,42 @@
 
 /* Card Animations */
 @keyframes shake-correct {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  75% { transform: translateX(5px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
 }
 
 @keyframes shake-incorrect {
-  0%, 100% { transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
-  20%, 40%, 60%, 80% { transform: translateX(10px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
 }
 
 .card--shake-correct {
@@ -530,6 +557,7 @@
 
 /* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
+
   .card--shake-correct,
   .card--shake-incorrect {
     animation: none;

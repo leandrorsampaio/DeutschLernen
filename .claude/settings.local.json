@@ -8,7 +8,8 @@
       "WebFetch(domain:code.claude.com)",
       "Bash(claude --version)",
       "Bash(find:*)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "Bash(git config:*)"
     ],
     "deny": []
   }
