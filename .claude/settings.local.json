@@ -9,7 +9,10 @@
       "Bash(claude --version)",
       "Bash(find:*)",
       "Bash(claude mcp:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(ssh:*)",
+      "Bash(ssh-add:*)"
     ],
     "deny": []
   }
