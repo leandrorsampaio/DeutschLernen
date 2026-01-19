@@ -12,7 +12,10 @@
       "Bash(git config:*)",
       "Bash(git remote set-url:*)",
       "Bash(ssh:*)",
-      "Bash(ssh-add:*)"
+      "Bash(ssh-add:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(pbcopy)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
