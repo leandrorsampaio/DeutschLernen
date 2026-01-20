@@ -182,9 +182,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 1842
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 10002
         }
       ],
-      "streak": 2,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -227,8 +232,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 4477
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -271,8 +282,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 3492
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -354,9 +371,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 5488
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 5067
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -440,8 +462,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 5682
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -600,8 +628,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 4815
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -688,8 +722,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 3732
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -748,9 +788,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 2026
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 3715
         }
       ],
-      "streak": 2,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -827,9 +872,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 2126
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 2862
         }
       ],
-      "streak": 2,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -954,9 +1004,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 3133
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 3473
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1049,8 +1104,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 4842
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1127,9 +1188,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 3432
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 5681
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1205,8 +1271,14 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 3884
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1254,9 +1326,14 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 2383
+        },
+        {
+          "date": "2026-01-20",
+          "correct": true,
+          "ms": 4099
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1289,6 +1366,11 @@
           "date": "2026-01-19",
           "correct": false,
           "ms": 3102
+        },
+        {
+          "date": "2026-01-20",
+          "correct": false,
+          "ms": 13033
         }
       ],
       "streak": 0,
@@ -1319,5 +1401,5 @@
       "memorizedDate": null
     }
   ],
-  "lastUpdated": "2026-01-19T22:37:19.855Z"
+  "lastUpdated": "2026-01-20T09:45:24.317Z"
 }
