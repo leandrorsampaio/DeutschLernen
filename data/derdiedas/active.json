@@ -74,7 +74,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2807
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -166,7 +172,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2416
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -187,7 +199,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2466
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -213,6 +231,11 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 1628
+        },
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2432
         }
       ],
       "streak": 0,
@@ -261,9 +284,14 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2540
+        },
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 2588
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -473,9 +501,14 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 1890
+        },
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 1358
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -551,7 +584,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2500
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -619,9 +658,14 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2816
+        },
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 3166
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -684,7 +728,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2949
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -732,9 +782,14 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2040
+        },
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 2249
         }
       ],
-      "streak": 1,
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -789,9 +844,14 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 4474
+        },
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 9703
         }
       ],
-      "streak": 0,
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -876,8 +936,14 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": true,
+          "ms": 2333
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1024,7 +1090,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 2249
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1066,7 +1138,13 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 1962
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1158,6 +1236,11 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 7306
+        },
+        {
+          "date": "2026-01-21",
+          "correct": false,
+          "ms": 3383
         }
       ],
       "streak": 0,
@@ -1165,5 +1248,5 @@
       "memorizedDate": null
     }
   ],
-  "lastUpdated": "2026-01-21T00:10:21.349Z"
+  "lastUpdated": "2026-01-21T11:15:45.667Z"
 }
