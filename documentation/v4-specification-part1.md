@@ -73,17 +73,21 @@ Core System (Shared)
 ├── Data persistence layer  
 └── Archive management
 
-App Plugins (Specific)  
-├── Nouns App (Phase 1)  
-│   ├── Article/plural display  
-│   ├── Gender color coding  
-│   └── Translation validation  
-├── Verbs App (Future)  
-│   ├── Conjugation tables  
-│   ├── Tense selection  
-│   └── Auxiliary verb handling  
-└── Expressions App (Future)  
-    ├── Context hints  
+App Plugins (Specific)
+├── Nouns App (Phase 1)
+│   ├── Article/plural display
+│   ├── Gender color coding
+│   └── Translation validation
+├── Der Die Das App (Phase 1.5)
+│   ├── Article-only practice
+│   ├── Button-based selection (der/die/das)
+│   └── "I don't know" option
+├── Verbs App (Future)
+│   ├── Conjugation tables
+│   ├── Tense selection
+│   └── Auxiliary verb handling
+└── Expressions App (Future)
+    ├── Context hints
     ├── Formality markers
 
     └── Usage examples
@@ -100,41 +104,49 @@ App Plugins (Specific)
 
 ## **File Structure**
 
-german-learning-app/  
-├── server.js                           # Express API server (~100 lines)  
-├── package.json                        # Dependencies (express only)  
-├── README.md                           # Setup instructions  
-├── public/  
-│   ├── index.html                      # App launcher screen  
-│   ├── style.css                       # Global styles (~300 lines)  
-│   ├── launcher.js                     # App selection logic (~100 lines)  
-│   ├── core/  
-│   │   ├── learning-engine.js          # Shared learning logic (~300 lines)  
-│   │   └── utils.js                    # Utility functions (~150 lines)  
-│   └── apps/  
-│       ├── nouns/  
-│       │   ├── nouns.html              # Noun practice interface (~200 lines)  
-│       │   ├── nouns.css               # Noun-specific styles (~200 lines)  
-│       │   └── nouns.js                # Noun practice logic (~400 lines)  
-│       ├── verbs/                      # Future Phase 2  
-│       │   ├── verbs.html  
-│       │   ├── verbs.css  
-│       │   └── verbs.js  
-│       └── expressions/                # Future Phase 3  
-│           ├── expressions.html  
-│           ├── expressions.css  
-│           └── expressions.js  
-└── data/  
-    ├── nouns/  
-    │   ├── active.json                 # Currently learning + recently memorized  
-    │   ├── archived.json               # Mastered 90+ days ago  
-    │   └── metadata.json               # App stats and settings  
-    ├── verbs/                          # Future  
-    │   ├── active.json  
-    │   ├── archived.json  
-    │   └── metadata.json  
-    └── expressions/                    # Future  
-        ├── active.json  
+german-learning-app/
+├── server.js                           # Express API server (~100 lines)
+├── package.json                        # Dependencies (express only)
+├── README.md                           # Setup instructions
+├── public/
+│   ├── index.html                      # App launcher screen
+│   ├── style.css                       # Global styles (~300 lines)
+│   ├── launcher.js                     # App selection logic (~100 lines)
+│   ├── core/
+│   │   ├── learning-engine.js          # Shared learning logic (~300 lines)
+│   │   └── utils.js                    # Utility functions (~150 lines)
+│   └── apps/
+│       ├── nouns/
+│       │   ├── nouns.html              # Noun practice interface (~200 lines)
+│       │   ├── nouns.css               # Noun-specific styles (~200 lines)
+│       │   └── nouns.js                # Noun practice logic (~400 lines)
+│       ├── derdiedas/                  # Article practice app
+│       │   ├── derdiedas.html          # Article practice interface (~190 lines)
+│       │   ├── derdiedas.css           # Article button styles (~400 lines)
+│       │   └── derdiedas.js            # Button selection logic (~300 lines)
+│       ├── verbs/                      # Future Phase 2
+│       │   ├── verbs.html
+│       │   ├── verbs.css
+│       │   └── verbs.js
+│       └── expressions/                # Future Phase 3
+│           ├── expressions.html
+│           ├── expressions.css
+│           └── expressions.js
+└── data/
+    ├── nouns/
+    │   ├── active.json                 # Currently learning + recently memorized
+    │   ├── archived.json               # Mastered 90+ days ago
+    │   └── metadata.json               # App stats and settings
+    ├── derdiedas/                      # Article practice data
+    │   ├── active.json                 # Same structure as nouns (no falseFriend)
+    │   ├── archived.json               # Mastered 90+ days ago
+    │   └── metadata.json               # App stats and settings
+    ├── verbs/                          # Future
+    │   ├── active.json
+    │   ├── archived.json
+    │   └── metadata.json
+    └── expressions/                    # Future
+        ├── active.json
         ├── archived.json
 
         └── metadata.json

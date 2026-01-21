@@ -1,21 +1,36 @@
 ## **Documentation for Future Self**
 
+### **Available Apps**
+
+| App | Purpose | Documentation |
+|-----|---------|---------------|
+| **Nouns** | Vocabulary practice (type translations) | This file |
+| **Der Die Das** | Article practice (click der/die/das) | `derdiedas-app.md` |
+| Verbs | Conjugation practice | Coming in Phase 2 |
+| Expressions | Common phrases | Coming in Phase 3 |
+
+---
+
 ### **Adding New Words**
 
-1. Open `data/nouns/active.json`  
-2. Copy existing word structure  
-3. Increment `id` (use next available number)  
-4. Fill in all fields:  
-   * German word \+ article \+ plural  
-   * English translations (array)  
-   * Portuguese translations (array)  
-   * Example sentence in German  
-   * Example translation in Portuguese  
-   * Goethe level (A1/A2/B1/B2)  
-   * Set difficulty: 2 (default)  
-   * Leave attempts empty, streak 0, memorized false  
-5. Save file  
+#### For Nouns App
+1. Open `data/nouns/active.json`
+2. Copy existing word structure
+3. Increment `id` (use next available number)
+4. Fill in all fields:
+   * German word \+ article \+ plural
+   * English translations (array)
+   * Portuguese translations (array)
+   * Example sentence in German
+   * Example translation in Portuguese
+   * Goethe level (A1/A2/B1/B2)
+   * Set difficulty: 2 (default)
+   * Leave attempts empty, streak 0, memorized false
+5. Save file
 6. Refresh browser
+
+#### For Der Die Das App
+Same process but with `data/derdiedas/active.json`. Note: `falseFriend` field is not used in this app. See `derdiedas-app.md` for full details.
 
 ### **Adjusting Settings**
 
