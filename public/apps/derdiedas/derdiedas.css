@@ -1,0 +1,649 @@
+/* ============================================
+   DER DIE DAS APP - SPECIFIC STYLES
+   ============================================
+   Styles specific to article practice interface
+   Includes article buttons and gender color coding */
+
+/* ============================================
+   HOME SCREEN
+   ============================================ */
+
+.derdiedas-home {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.derdiedas-home__header {
+  margin-bottom: var(--spacing-lg);
+}
+
+.derdiedas-home__back {
+  display: inline-block;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-sm);
+  transition: color var(--transition-fast);
+}
+
+.derdiedas-home__back:hover {
+  color: var(--color-primary);
+}
+
+.derdiedas-home__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+}
+
+.derdiedas-home__subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+/* Statistics Display */
+.derdiedas-home__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+
+.stat {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+}
+
+.stat__value {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Mode Selection Buttons */
+.derdiedas-home__modes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin: var(--spacing-lg) 0;
+}
+
+.derdiedas-home__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin-top: var(--spacing-lg);
+}
+
+/* ============================================
+   PRACTICE SESSION
+   ============================================ */
+
+.session {
+  max-width: 800px;
+  width: 100%;
+}
+
+.session__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.session__quit {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  transition: color var(--transition-fast);
+}
+
+.session__quit:hover {
+  color: var(--color-danger);
+}
+
+.session__mode {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* ============================================
+   CARD DISPLAY
+   ============================================ */
+
+.session__card-container {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.card {
+  background: var(--color-surface);
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  width: 100%;
+  max-width: 600px;
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-base);
+}
+
+/* Gender Color Coding for German Articles */
+.card--masculine {
+  border-color: var(--color-masculine);
+}
+
+.card--feminine {
+  border-color: var(--color-feminine);
+}
+
+.card--neutral {
+  border-color: var(--color-neutral);
+}
+
+/* Card Front (Question) */
+.card__front {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.card__word {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* ============================================
+   ARTICLE BUTTONS
+   ============================================ */
+
+.article-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.article-btn {
+  min-width: 100px;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  border: 3px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.article-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.article-btn:active {
+  transform: translateY(0);
+}
+
+/* Article-specific colors */
+.article-btn--der {
+  border-color: var(--color-masculine);
+  color: var(--color-masculine);
+}
+
+.article-btn--der:hover {
+  background: var(--color-masculine);
+  color: white;
+}
+
+.article-btn--die {
+  border-color: var(--color-feminine);
+  color: var(--color-feminine);
+}
+
+.article-btn--die:hover {
+  background: var(--color-feminine);
+  color: white;
+}
+
+.article-btn--das {
+  border-color: var(--color-neutral);
+  color: var(--color-neutral);
+}
+
+.article-btn--das:hover {
+  background: var(--color-neutral);
+  color: white;
+}
+
+/* I don't know button */
+.dont-know-btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.dont-know-btn:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+/* Card Back (Answer) */
+.card-back {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.card-back__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.card-back__word {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.card-back__result {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-md);
+}
+
+.card-back__result.correct {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.card-back__result.incorrect {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.card-back__translations {
+  font-size: var(--font-size-base);
+  line-height: 1.8;
+}
+
+.card-back__warning {
+  background: #fff3e0;
+  border-left: 4px solid var(--color-warning);
+  padding: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: #e65100;
+}
+
+.card-back__example {
+  background: #f5f5f5;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  line-height: 1.8;
+}
+
+.card-back__example em {
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* Card Animations */
+@keyframes shake-correct {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes shake-incorrect {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.card--shake-correct {
+  animation: shake-correct 0.5s ease;
+  border-color: var(--color-success) !important;
+}
+
+.card--shake-incorrect {
+  animation: shake-incorrect 0.5s ease;
+  border-color: var(--color-danger) !important;
+}
+
+/* ============================================
+   PROGRESS BAR
+   ============================================ */
+
+.progress-container {
+  margin-top: var(--spacing-lg);
+}
+
+.progress-container__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+  text-align: center;
+}
+
+.progress-container__bar {
+  width: 100%;
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-container__fill {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width var(--transition-base);
+}
+
+/* ============================================
+   RESULTS SCREEN
+   ============================================ */
+
+.results {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.results__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+}
+
+.results__score {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.results__score-number {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-sm);
+}
+
+.results__accuracy {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.results__message {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.results__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+/* ============================================
+   STATISTICS SCREEN
+   ============================================ */
+
+.stats {
+  max-width: 800px;
+  width: 100%;
+}
+
+.stats__header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.stats__back {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  transition: color var(--transition-fast);
+}
+
+.stats__back:hover {
+  color: var(--color-primary);
+}
+
+.stats__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+}
+
+.stats__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.stats__metric {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  text-align: center;
+}
+
+.stats__metric-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.stats__metric-value {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.stats__section-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.stats__streak-distribution {
+  margin-bottom: var(--spacing-xl);
+}
+
+.streak-bar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.streak-bar__segment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: var(--width);
+  background-color: var(--color);
+  color: #333;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  transition: width 0.5s ease-in-out;
+  position: relative;
+}
+
+.streak-bar__segment:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.streak-bar__label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.streak-bar__value {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+}
+
+.stats__calendar {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats__calendar-placeholder {
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+  .derdiedas-home__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: var(--spacing-md);
+  }
+
+  .card__word {
+    font-size: var(--font-size-2xl);
+  }
+
+  .article-buttons {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .article-btn {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .stats__metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .derdiedas-home__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .derdiedas-home__actions .button {
+    width: 100%;
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .card {
+    border-width: 4px;
+  }
+
+  .card-back__result {
+    border: 2px solid currentColor;
+  }
+
+  .article-btn {
+    border-width: 4px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+
+  .card--shake-correct,
+  .card--shake-incorrect {
+    animation: none;
+  }
+
+  * {
+    transition: none !important;
+  }
+}

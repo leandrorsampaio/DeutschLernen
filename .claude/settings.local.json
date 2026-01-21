@@ -15,7 +15,8 @@
       "Bash(ssh-add:*)",
       "Bash(ssh-keygen:*)",
       "Bash(pbcopy)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(curl:*)"
     ],
     "deny": []
   }
