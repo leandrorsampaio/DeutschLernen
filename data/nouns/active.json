@@ -25,11 +25,31 @@
           "date": "2026-01-09",
           "correct": true,
           "ms": 3402
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 4031
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 5174
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3596
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3611
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 2,
@@ -49,10 +69,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2971
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 4061
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3311
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 3924
+        },
+        {
+          "date": "2026-03-09",
+          "correct": true,
+          "ms": 7361
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-03-09"
     },
     {
       "id": 3,
@@ -86,11 +132,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2552807
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4468
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2745
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-23"
     },
     {
       "id": 4,
@@ -110,10 +166,36 @@
       "difficulty": 1,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 4181
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4577
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1676
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 3918
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 5062
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 5,
@@ -133,10 +215,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2849
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1741
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 6569
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2863
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2247
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 6,
@@ -165,11 +273,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2457
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2992
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3253
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4122
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 7,
@@ -208,11 +331,16 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3553
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3335
         }
       ],
-      "streak": 4,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-25"
     },
     {
       "id": 8,
@@ -231,10 +359,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 9813
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3688
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3235
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3568
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 4181
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 9,
@@ -258,11 +412,31 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 4477
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2683
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3248
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3072
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3732
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-28"
     },
     {
       "id": 10,
@@ -281,10 +455,36 @@
       "difficulty": 1,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 4317
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3553
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 3297
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 5622
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2501
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 11,
@@ -318,11 +518,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3450
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2607
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2940
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-26"
     },
     {
       "id": 12,
@@ -356,11 +566,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5473
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3825
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3131
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 13,
@@ -384,11 +604,31 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 2516
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2970
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3818
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2455
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 3072
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 14,
@@ -422,11 +662,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4815
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3089
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3374
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 15,
@@ -455,11 +705,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5594
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 4590
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 4197
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 4314
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 16,
@@ -493,11 +758,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2578
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 3254
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3180
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 17,
@@ -528,11 +803,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2668
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4273
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2080
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2610
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 18,
@@ -557,11 +847,31 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 4289
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 3344
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 7601
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3643
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 11669
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 19,
@@ -596,11 +906,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 1723
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1905
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2787
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 20,
@@ -625,11 +945,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4752
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 3658
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 4339
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3148
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2726
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 21,
@@ -663,11 +1003,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5863
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4828
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2969
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 4466
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 22,
@@ -686,10 +1041,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 3343
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 6283
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3298
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3268
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 4362
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 23,
@@ -720,11 +1101,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2008
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2905
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2747
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4032
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 24,
@@ -753,11 +1149,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3706
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1645
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3163
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3014
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 25,
@@ -791,11 +1202,21 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 1674
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3838
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3356
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 26,
@@ -824,11 +1245,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4079
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2592
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2355
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 5405
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 27,
@@ -857,11 +1293,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4977
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 3630
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 5838
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3282
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 28,
@@ -895,11 +1346,21 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 3715
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 3162
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2038
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 29,
@@ -919,10 +1380,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2367
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 5802
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 5189
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2460
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4045
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 30,
@@ -941,10 +1428,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3035
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3162
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 4754
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2775
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 3717
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 31,
@@ -979,11 +1492,21 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 2862
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2682
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2893
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 32,
@@ -1009,11 +1532,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4154
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 8145
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 3044
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2447
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 4122
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 33,
@@ -1033,10 +1576,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 3405
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2356
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 3494
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 2321
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 4694
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 34,
@@ -1056,10 +1625,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2876
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3613
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3852
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2832
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2725
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 35,
@@ -1089,11 +1684,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 4619
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 3407
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3019
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2951
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 36,
@@ -1127,11 +1737,21 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 12957
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2247
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 4815
         }
       ],
-      "streak": 3,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-26"
     },
     {
       "id": 37,
@@ -1155,11 +1775,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3057
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2653
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2240
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 4676
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 4905
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 38,
@@ -1183,11 +1823,31 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 1992
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2483
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2696
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3808
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2459
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 39,
@@ -1206,10 +1866,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 3250
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 3521
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 2755
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 3161
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2237
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 40,
@@ -1233,11 +1919,31 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 4842
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 4508
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 4918
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2536
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3056
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 41,
@@ -1266,11 +1972,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3942
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2729
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3403
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3074
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 42,
@@ -1290,10 +2011,36 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 6434
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 4420
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2854
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2846
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 3328
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 43,
@@ -1322,11 +2069,26 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 5681
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 2250
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2911
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2700
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 44,
@@ -1350,11 +2112,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 8639
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2563
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2698
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 5608
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 3151
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 45,
@@ -1383,11 +2165,26 @@
           "date": "2026-01-19",
           "correct": true,
           "ms": 1620
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4571
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2581
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3295
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 46,
@@ -1416,11 +2213,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5521
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4827
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3752
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 7680
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-28"
     },
     {
       "id": 47,
@@ -1444,11 +2256,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3944
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1977
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2489
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 5323
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2923
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 48,
@@ -1477,11 +2309,26 @@
           "date": "2026-01-20",
           "correct": true,
           "ms": 4099
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 5939
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 5698
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3285
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 49,
@@ -1527,6 +2374,56 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5397
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 3074
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 7873
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 3719
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 4499
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 5160
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4724
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 8248
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 3179
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2838
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2920
         }
       ],
       "streak": 2,
@@ -1551,11 +2448,37 @@
       "difficulty": 2,
       "falseFriend": false,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4932
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3307
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3616
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3868
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 3026
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     }
   ],
-  "lastUpdated": "2026-01-21T11:17:43.960Z"
+  "lastUpdated": "2026-04-13T09:01:52.129Z"
 }

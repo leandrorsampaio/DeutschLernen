@@ -9,12 +9,12 @@
   "stats": {
     "totalWords": 50,
     "activeWords": 50,
-    "memorizedWords": 0,
+    "memorizedWords": 13,
     "archivedWords": 0,
     "startDate": "2026-01-21",
-    "totalSessions": 2,
-    "totalCards": 30,
-    "overallAccuracy": 0.5333333333333333,
+    "totalSessions": 18,
+    "totalCards": 257,
+    "overallAccuracy": 0.6731517509727627,
     "currentStreak": 0,
     "longestStreak": 0,
     "averageSessionTime": 0

@@ -24,9 +24,24 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2082
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1434
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2027
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1265
         }
       ],
-      "streak": 1,
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -52,11 +67,41 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 5211
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1859
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2516
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1454
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 1619
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1266
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1532
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 3,
@@ -79,9 +124,39 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2807
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2804
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 2891
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2000
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2791
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 24774
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1449
         }
       ],
-      "streak": 0,
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -102,8 +177,24 @@
       "level": "A1",
       "difficulty": 1,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 5639
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1299
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1551
+        }
+      ],
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -124,8 +215,24 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1765
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3107
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2441
+        }
+      ],
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -150,9 +257,49 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2475
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4264
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1365
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 2666
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 1920
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 11424
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1531
+        },
+        {
+          "date": "2026-03-09",
+          "correct": false,
+          "ms": 4299
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1731
         }
       ],
-      "streak": 0,
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -177,6 +324,66 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2416
+        },
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 2518
+        },
+        {
+          "date": "2026-01-25",
+          "correct": false,
+          "ms": 2461
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1609
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1599
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 1378
+        },
+        {
+          "date": "2026-01-30",
+          "correct": false,
+          "ms": 1571
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1832
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 1778
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 7816
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 2295
+        },
+        {
+          "date": "2026-02-06",
+          "correct": false,
+          "ms": 1252
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 1698
         }
       ],
       "streak": 0,
@@ -204,9 +411,39 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2466
+        },
+        {
+          "date": "2026-01-23",
+          "correct": false,
+          "ms": 1503
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 2882
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 10149
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2403
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1166
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1869
         }
       ],
-      "streak": 0,
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -236,6 +473,36 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2432
+        },
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 2010
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1680
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 1678
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 1432
+        },
+        {
+          "date": "2026-02-06",
+          "correct": false,
+          "ms": 1799
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 1766
         }
       ],
       "streak": 0,
@@ -258,8 +525,19 @@
       "level": "A1",
       "difficulty": 1,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 2866
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3354
+        }
+      ],
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -289,9 +567,29 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2588
+        },
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 1845
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1832
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1765
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1271
         }
       ],
-      "streak": 2,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -311,8 +609,34 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 4169
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1661
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 2032
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1496
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1516
+        }
+      ],
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -332,8 +656,29 @@
       "level": "A1",
       "difficulty": 1,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1799
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1982
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1228
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 1193
+        }
+      ],
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -353,8 +698,19 @@
       "level": "A1",
       "difficulty": 1,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1843
+        },
+        {
+          "date": "2026-03-09",
+          "correct": true,
+          "ms": 3225
+        }
+      ],
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -374,10 +730,51 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": false,
+          "ms": 4349
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 3850
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 3468
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1394
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3291
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2304
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1520
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1704
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 16,
@@ -395,8 +792,29 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2215
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 2292
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1583
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1716
+        }
+      ],
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -423,11 +841,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2099
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 1221
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1374
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1251
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1266
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 18,
@@ -451,11 +889,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 6644
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2508
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 36414
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 1344
+        },
+        {
+          "date": "2026-03-09",
+          "correct": true,
+          "ms": 3866
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-03-09"
     },
     {
       "id": 19,
@@ -474,10 +932,36 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1590
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1655
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1431
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1122
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3108
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 20,
@@ -506,11 +990,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 1358
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1149
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1165
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 3865
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 21,
@@ -533,11 +1032,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2570
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1415
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1188
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1683
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2031
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-04-13"
     },
     {
       "id": 22,
@@ -560,11 +1079,36 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2866
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1423
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1441
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1367
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1202
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1191
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 6,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 23,
@@ -589,9 +1133,29 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2500
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 3785
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3203
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2082
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 5246
         }
       ],
-      "streak": 0,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -611,8 +1175,29 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 9449
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 3323
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 3632
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3559
+        }
+      ],
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -632,10 +1217,36 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1536
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1218
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1316
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2028
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1216
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 26,
@@ -663,9 +1274,24 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 3166
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 1778
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 8999
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1420
         }
       ],
-      "streak": 2,
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -685,8 +1311,24 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2035
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 2182
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3072
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -733,6 +1375,26 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2949
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 1936
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1865
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 2849
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 3206
         }
       ],
       "streak": 0,
@@ -755,10 +1417,36 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1553
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 5215
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2147
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1219
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1262
+        }
+      ],
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-06"
     },
     {
       "id": 31,
@@ -787,11 +1475,26 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2249
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1482
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 2398
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1632
         }
       ],
-      "streak": 2,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-01-30"
     },
     {
       "id": 32,
@@ -816,9 +1519,34 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 3662
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1507
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2883
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2483
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 6433
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1614
         }
       ],
-      "streak": 0,
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -849,9 +1577,44 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 9703
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 4512
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 4772
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 2515
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 3782
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3071
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 5854
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 4933
         }
       ],
-      "streak": 1,
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -894,7 +1657,28 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 3827
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1549
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1621
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 1850
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -915,8 +1699,39 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 1594
+        },
+        {
+          "date": "2026-01-23",
+          "correct": false,
+          "ms": 2283
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 1308
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1485
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1613
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 1082
+        }
+      ],
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -941,11 +1756,31 @@
           "date": "2026-01-21",
           "correct": true,
           "ms": 2333
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1687
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2314
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 1736
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1398
         }
       ],
-      "streak": 1,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 5,
+      "memorized": true,
+      "memorizedDate": "2026-02-04"
     },
     {
       "id": 38,
@@ -963,8 +1798,34 @@
       "level": "A1",
       "difficulty": 1,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1633
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 1932
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2591
+        },
+        {
+          "date": "2026-01-30",
+          "correct": false,
+          "ms": 1564
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 3251
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -984,8 +1845,44 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": false,
+          "ms": 1582
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 5607
+        },
+        {
+          "date": "2026-01-28",
+          "correct": true,
+          "ms": 3322
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 1816
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 5758
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2716
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 1066
+        }
+      ],
+      "streak": 2,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1005,8 +1902,49 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 2411
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1846
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2033
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1635
+        },
+        {
+          "date": "2026-01-30",
+          "correct": false,
+          "ms": 2104
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1332
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 1650
+        },
+        {
+          "date": "2026-04-13",
+          "correct": true,
+          "ms": 2464
+        }
+      ],
+      "streak": 3,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1026,7 +1964,23 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 4762
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 4031
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 1548
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1048,7 +2002,38 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 1813
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 2145
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 1675
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 1322
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 2090
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 2267
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1069,8 +2054,34 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1666
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2141
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3698
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 3467
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1782
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1095,11 +2106,41 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 2249
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 3277
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1865
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 6691
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2449
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1268
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 1267
         }
       ],
-      "streak": 0,
-      "memorized": false,
-      "memorizedDate": null
+      "streak": 6,
+      "memorized": true,
+      "memorizedDate": "2026-01-27"
     },
     {
       "id": 45,
@@ -1117,8 +2158,14 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 2616
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1143,9 +2190,29 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 1962
+        },
+        {
+          "date": "2026-01-22",
+          "correct": true,
+          "ms": 2724
+        },
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1566
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1790
+        },
+        {
+          "date": "2026-02-04",
+          "correct": true,
+          "ms": 2024
         }
       ],
-      "streak": 0,
+      "streak": 4,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1165,7 +2232,33 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-22",
+          "correct": false,
+          "ms": 2032
+        },
+        {
+          "date": "2026-01-26",
+          "correct": true,
+          "ms": 6984
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2188
+        },
+        {
+          "date": "2026-01-30",
+          "correct": false,
+          "ms": 5218
+        },
+        {
+          "date": "2026-02-06",
+          "correct": false,
+          "ms": 1366
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1186,7 +2279,23 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
+      "attempts": [
+        {
+          "date": "2026-01-25",
+          "correct": false,
+          "ms": 2390
+        },
+        {
+          "date": "2026-01-27",
+          "correct": true,
+          "ms": 2283
+        },
+        {
+          "date": "2026-04-13",
+          "correct": false,
+          "ms": 2532
+        }
+      ],
       "streak": 0,
       "memorized": false,
       "memorizedDate": null
@@ -1209,8 +2318,54 @@
       "level": "A1",
       "difficulty": 2,
       "warning": "",
-      "attempts": [],
-      "streak": 0,
+      "attempts": [
+        {
+          "date": "2026-01-23",
+          "correct": true,
+          "ms": 1575
+        },
+        {
+          "date": "2026-01-25",
+          "correct": true,
+          "ms": 1466
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 3966
+        },
+        {
+          "date": "2026-01-28",
+          "correct": false,
+          "ms": 2433
+        },
+        {
+          "date": "2026-01-30",
+          "correct": false,
+          "ms": 6416
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 3999
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 3333
+        },
+        {
+          "date": "2026-02-04",
+          "correct": false,
+          "ms": 3241
+        },
+        {
+          "date": "2026-02-06",
+          "correct": true,
+          "ms": 1798
+        }
+      ],
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     },
@@ -1241,12 +2396,32 @@
           "date": "2026-01-21",
           "correct": false,
           "ms": 3383
+        },
+        {
+          "date": "2026-01-23",
+          "correct": false,
+          "ms": 3362
+        },
+        {
+          "date": "2026-01-26",
+          "correct": false,
+          "ms": 2742
+        },
+        {
+          "date": "2026-01-27",
+          "correct": false,
+          "ms": 4753
+        },
+        {
+          "date": "2026-01-30",
+          "correct": true,
+          "ms": 2489
         }
       ],
-      "streak": 0,
+      "streak": 1,
       "memorized": false,
       "memorizedDate": null
     }
   ],
-  "lastUpdated": "2026-01-21T11:15:45.667Z"
+  "lastUpdated": "2026-04-13T09:02:51.039Z"
 }
