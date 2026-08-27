@@ -8,9 +8,9 @@
   },
   "stats": {
     "totalWords": 50,
-    "activeWords": 50,
+    "activeWords": 10,
     "memorizedWords": 49,
-    "archivedWords": 0,
+    "archivedWords": 40,
     "startDate": "2026-01-09",
     "totalSessions": 23,
     "totalCards": 288,
@@ -19,6 +19,6 @@
     "longestStreak": 0,
     "averageSessionTime": 0
   },
-  "lastArchiveCheck": "2026-01-09T17:55:35.428Z",
+  "lastArchiveCheck": "2026-05-29T21:45:18.474Z",
   "lastBackup": null
 }
